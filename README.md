@@ -1,5 +1,5 @@
 # OOP-UIT
-Bài tập thực hành tuần 1 – Ôn tập về lập trình C
+## Bài tập thực hành tuần 1 – Ôn tập về lập trình C
 
 1. Viết chương trình nhập vào một phân số, rút gọn phân số và xuất kết quả.
 2. Viết chương trình nhập vào hai phân số, tìm phân số lớn nhất và xuất kết quả.

@@ -131,3 +131,65 @@ b. Chương trình sẽ đưa ra thống kê các thông tin người chủ mong
 • Bò: 0 – 20 lít.
 • Cừu: 0 – 5 lít.
 • Dê: 0 – 10 lít.
+##  Bài tập về đa hình
+1. Giả sử Trường ĐH CNTT TP.HCM đào tạo sinh viên theo 2 hệ là hệ cao đẳng 
+và hệ đại học. Thông tin cần quản lí của một sinh viên cao đẳng bao gồm: mã số 
+sinh viên, họ tên, địa chỉ, tổng số tín chỉ, điểm trung bình, điểm thi tốt nghiệp. 
+Thông tin cần quản lí của một sinh viên đại học bao gồm: mã số sinh viên, họ 
+tên, địa chỉ, tổng số tín chỉ, điểm trung bình, tên luận văn, điểm luận văn.
+Cách xét tốt nghiệp của sinh viên mỗi hệ là khác nhau:
+- Sinh viên hệ cao đẳng tốt nghiệp khi có tổng số tín chỉ từ 120 trở lên, điểm 
+trung bình từ 5 trở lên và điểm thi tốt nghiệp phải đạt từ 5 trở lên.
+- Sinh viên hệ đại học tốt nghiệp khi có tổng số tín chỉ từ 170 trở lên, điểm 
+trung bình từ 5 trở lên và phải bảo vệ luận văn với điểm số đạt được từ 5 
+điểm trở lên.
+Hãy thiết kế các lớp và cài đặt chương trình bằng C++ cho phép thực hiện các 
+yêu cầu sau:
+a. Nhập vào danh sách các sinh viên
+b. Xuất danh sách các sinh viên
+c. Xuất danh sách sinh viên đủ điều kiện tốt nghiệp
+d. Xuất danh sách sinh viên không đủ điều kiện tốt nghiệp
+e. Cho biết sinh viên đại học nào có điểm trung bình cao nhất
+f. Cho biết sinh viên cao đẳng nào có điểm trung bình cao nhất
+g. Với mỗi loại, cho biết có bao nhiêu sinh viên không đủ điều kiện tốt nghiệp
+2. Giả sử công ty phần mềm Hoàn cầu có 2 loại nhân viên: các lập trình viên là 
+những người sẽ viết mã nguồn cho các ứng dụng, các kiểm chứng viên có nhiệm 
+vụ kiểm tra mã nguồn và chương trình mà lập trình viên viết ra, để tìm các lỗi 
+trước khi giao sản phẩm cho khách hàng. Hiện tại, để quản lý thông tin của các 
+nhân viên của mình, công ty phần mềm Hoàn cầu lưu trữ các thông tin sau:
+- Đối với lập trình viên: mã nhân viên, họ tên, tuổi, số điện thoại, email, lương 
+cơ bản, số giờ overtime.
+- Đối với kiểm chứng viên: mã nhân viên, họ tên, tuổi, số điện thoại, email, 
+lương cơ bản, số lỗi phát hiện được.
+Do tính chất công việc khác nhau, nên lương hàng tháng của lập trình viên và 
+kiểm chứng viên cũng khác nhau. Cụ thể:
+- Lương (lập trình viên) = lương cơ bản + số giờ làm thêm * 200.000
+- Lương (kiểm chứng viên) = lương cơ bản + số lỗi * 50.000
+Hãy đề xuất thiết kế các lớp đối tượng cần thiết để quản lý danh sách các nhân 
+viên của Công ty và viết chương trình cho phép thực hiện các yêu cầu sau:
+a. Nhập vào danh sách nhân viên
+b. Xuất danh sách nhân viên
+c. Xuất danh sách các nhân viên có lương thấp hơn mức lương trung bình của 
+các nhân viên trong công ty
+d. Xuất thông tin nhân viên có lương cao nhất
+e. Xuất thông tin nhân viên có lương thấp nhất
+f. Xuất thông tin lập trình viên có lương cao nhất
+g. Xuất thông tin kiểm chứng viên có lương thấp nhất
+3. Áp dụng liên kết động để làm lại bài tập tuần 5 (bài nông trại). Hãy so sánh
+giữa 2 cách làm (không dùng liên kết động và có dùng liên kết động) và rút ra
+ưu điểm của cách dùng liên kết động.
+4. Công ty XYZ quản lý việc mua hàng của 3 loại khách hàng:
+- Loại A: Khách hàng bình thường (gồm x khách hàng): 
+Số tiền khách hàng trả = Số lượng hàng * đơn giá hàng + Thuế VAT (10%)
+- Loại B: Khách hàng thân thiết (gồm y khách hàng):
+Phần trăm khuyến mãi = MAX (Số năm thân thiết * 5%, 50%)
+Số tiền khách hàng trả = (Số lượng hàng * đơn giá hàng) * (100% - Phần trăm 
+khuyến mãi) + Thuế VAT (10%) 
+- Loại C: Khách hàng đặc biệt (gồm z khách hàng):
+Số tiền khách hàng trả = (Số lượng hàng*đơn giá hàng)*50%+Thuế VAT (10%) 
+Viết chương trình thực hiện các yêu cầu sau:
+1) Nhập danh sách khách hàng từ file văn bản XYZ.INP. 0< x,y,z<1000. 
+2) Tổng số tiền mỗi khách hàng trong danh sách phải trả. Xuất kết quả ra file 
+XYZ.OUT dưới định dạng theo quy định.
+3) Thiết kế và xây dựng các lớp để giải quyết bài toán tính Tổng số tiền công 
+ty thu được. Xuất kết quả ra file XYZ.OUT dưới định dạng theo quy định.

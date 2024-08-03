@@ -27,3 +27,13 @@ sinh, điểm thi Toán, Văn, Anh và các phương thức cần thiết.
 Xây dựng lớp TestCandidate để kiểm tra lớp trên:
 - Nhập vào n thí sinh (n do người dùng nhập)
 - In ra thông tin về các thí sinh có tổng điểm lớn hơn 15
+## Bài tập thực hành tuần 3 – Bài tập cơ bản về lớp
+1. Thiết lập lớp biểu diễn khái niệm điểm trong mặt phẳng với hai thành phần dữ 
+liệu hoành độ và tung độ. Viết các phương thức thiết lập, các hàm thành phần 
+cho phép thay đổi nội dung của điểm, lấy hoành độ, tung độ, tịnh tiến, nhập, xuất 
+một điểm, hàm vẽ điểm trong chế độ đồ họa.
+2. Viết định nghĩa lớp TamGiac để biểu diễn khái niệm tam giác trong mặt phẳng 
+với các phương thức thiết lập, huỷ bỏ (nếu có). Các hàm thành phần nhập, xuất, 
+tịnh tiến, quay, phóng to, thu nhỏ và vẽ tam giác.
+3. Viết định nghĩa lớp DaGiac để biểu diễn khái niệm đa giác trong mặt phẳng với 
+các hàm thành phần tương tự như lớp TamGiac

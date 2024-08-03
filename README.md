@@ -21,6 +21,7 @@ các phép toán cộng, trừ, nhân, chia hai số phức kể trên.
 Ví dụ: Cho hai số phức A(a1, a2), B(b1, b2)
 
 ![image](https://github.com/user-attachments/assets/acc0801f-2382-44bf-8f38-3e1e06c0e55c)
+
 4. Xây dựng lớp Candidate (Thí sinh) gồm các thuộc tính: mã, tên, ngày tháng năm 
 sinh, điểm thi Toán, Văn, Anh và các phương thức cần thiết.
 Xây dựng lớp TestCandidate để kiểm tra lớp trên:

@@ -27,7 +27,7 @@ sinh, điểm thi Toán, Văn, Anh và các phương thức cần thiết.
 Xây dựng lớp TestCandidate để kiểm tra lớp trên:
 - Nhập vào n thí sinh (n do người dùng nhập)
 - In ra thông tin về các thí sinh có tổng điểm lớn hơn 15
-## Bài tập thực hành tuần 3 – Bài tập cơ bản về lớp
+## Bài tập thực hành tuần 3 – Bài tập cơ bản về lớp(BTH2)
 1. Thiết lập lớp biểu diễn khái niệm điểm trong mặt phẳng với hai thành phần dữ 
 liệu hoành độ và tung độ. Viết các phương thức thiết lập, các hàm thành phần 
 cho phép thay đổi nội dung của điểm, lấy hoành độ, tung độ, tịnh tiến, nhập, xuất 
@@ -37,7 +37,7 @@ với các phương thức thiết lập, huỷ bỏ (nếu có). Các hàm thà
 tịnh tiến, quay, phóng to, thu nhỏ và vẽ tam giác.
 3. Viết định nghĩa lớp DaGiac để biểu diễn khái niệm đa giác trong mặt phẳng với 
 các hàm thành phần tương tự như lớp TamGiac
-## Bài tập thực hành tuần 4 – Bài tập cơ bản về lớp
+## Bài tập thực hành tuần 4 – Bài tập cơ bản về lớp(BTH2)
 1. Định nghĩa lớp dữ liệu CTimeSpan để biểu diễn khái niệm khoảng thời gian, các 
 hàm thành phần và các phép toán cần thiết (+, -, ==, !=, >, >=, <, <=), hàm xuất, 
 nhập. Lưu ý viết theo dạng hàm: cong, tru, ...; không dùng overloading operator

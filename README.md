@@ -1,5 +1,5 @@
 # OOP-UIT
-## Bài tập thực hành tuần 1 – Ôn tập về lập trình C
+## Bài tập thực hành tuần 1 – Ôn tập về lập trình C(BTH1)
 
 1. Viết chương trình nhập vào một phân số, rút gọn phân số và xuất kết quả.
 2. Viết chương trình nhập vào hai phân số, tìm phân số lớn nhất và xuất kết quả.
@@ -8,7 +8,7 @@ và xuất kết quả.
 4. Viết chương trình nhập vào một ngày. Tìm ngày kế tiếp và xuất kết quả.
 5. Viết chương trình nhập họ tên, điểm toán, điểm văn của một học sinh. Tính điểm 
 trung bình và xuất kết quả.
-## Bài tập thực hành tuần 2 – Bài tập cơ bản về lớp
+## Bài tập thực hành tuần 2 – Bài tập cơ bản về lớp(BTH1)
 1. Thiết lập lớp PhanSo để biểu diễn khái niệm phân số với hai thành phần dữ liệu 
 tử số, mẫu số và các hàm thành phần cộng, trừ, nhân, chia hai phân số, các 
 hàm thành phần xuất, nhập, định giá trị cho phân số. Viết chương trình cho 

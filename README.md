@@ -51,7 +51,7 @@ hai CDate tính bằng ngày), hàm xuất, nhập. Lưu ý viết theo dạng h
 ...; không dùng overloading operator
 4. Định nghĩa lớp biểu diễn khái niệm đa thức có bậc bất kỳ với các hàm thành 
 phần và phép toán cần thiết.
-## Bài tập thực hành tuần 5 – Bài tập cơ bản về lớp
+## Bài tập thực hành tuần 5 – Bài tập cơ bản về lớp(BTH3)
 1. Viết định nghĩa lớp String để biểu diễn khái niệm chuỗi ký tự với các phương 
 thức thiết lập và huỷ bỏ, các hàm thành phần tính chiều dài chuỗi, nối hai chuỗi, 
 đảo chuỗi, nhập và xuất chuỗi.
@@ -67,7 +67,7 @@ thức thiết lập và huỷ bỏ, các hàm thành phần tính chiều dài 
 • C dòng tiếp theo chứa Ti là số lượng từ trong câu thứ i (1 <= i <= C).
 • Dòng kế tiếp chứa các từ xuất hiện nhiều nhất.
 • Các dòng kế tiếp chứa đoạn văn sau khi đã sắp xếp.
-## Bài tập thực hành tuần 6 - Bài tập overloading
+## Bài tập thực hành tuần 6 - Bài tập overloading(BTH4)
 1. Làm lại bài số phức với một phương thức thiết lập duy nhất cho phép quan điểm 
 một số thực như một số phức đặc biệt (phần ảo bằng 0). Định nghĩa các phép 
 toán +, -, *, /, = =, !=, >, >=, <, <= trên số phức. Định nghĩa phép toán << và >> 
@@ -92,7 +92,7 @@ hai chuỗi).
 phần và phép toán cần thiết.
 8. Định nghĩa lớp CVector biểu diễn khái niệm vector trong không gian có số chiều 
 bất kỳ với các hàm thành phần và các phép toán cần thiết.
-## Bài tập thực hành tuần 7 – Bài tập về kế thừa
+## Bài tập thực hành tuần 7 – Bài tập về kế thừa(BTH5)
 1. Giả sử Công ty có hai loại nhân viên: Nhân viên văn phòng và Nhân viên sản 
 xuất. Viết chương trình quản lý và tính lương cho từng nhân viên của công ty:
 Mỗi nhân viên cần quản lý các thông tin sau: Họ tên, ngày sinh, lương
@@ -131,7 +131,7 @@ b. Chương trình sẽ đưa ra thống kê các thông tin người chủ mong
 • Bò: 0 – 20 lít.
 • Cừu: 0 – 5 lít.
 • Dê: 0 – 10 lít.
-##  Bài tập về đa hình
+##  Bài tập về đa hình(BTH6)
 1. Giả sử Trường ĐH CNTT TP.HCM đào tạo sinh viên theo 2 hệ là hệ cao đẳng 
 và hệ đại học. Thông tin cần quản lí của một sinh viên cao đẳng bao gồm: mã số 
 sinh viên, họ tên, địa chỉ, tổng số tín chỉ, điểm trung bình, điểm thi tốt nghiệp. 
